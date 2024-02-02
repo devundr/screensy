@@ -1,9 +1,9 @@
-localhost {
+freds.homeip.net {
 	# basicauth {
 	# 	<username> <hash>
 	# }
 
-	reverse_proxy website:8080
+	reverse_proxy website:80
 
 	@rendezvous {
 		header Connection *Upgrade*
